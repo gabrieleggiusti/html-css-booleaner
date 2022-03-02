@@ -1,0 +1,114 @@
+/* general */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 35px;
+}
+
+.container{
+  width: 80%;
+  max-width: 1020px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+.hgthlight {
+  background-color: yellow;
+}
+
+/* header */
+
+header{
+  height: 100px;
+  background-color: #4ea0ff;
+  background-image: url('../img/pattern.png');
+  background-size: 20%;
+}
+
+header #logo img {
+  width: 200px;
+  margin-top: 40px;
+}
+
+/* main */
+
+main{
+  padding-top: 20px;
+}
+
+main .did{
+  color:  #828282;
+}
+
+main .did span{
+  color:  #23a9e5;
+}
+
+main .date{
+  font-size: .7rem;
+}
+
+main .photo .caption{
+  margin-top: 15px;
+  font-size: .7rem;
+}
+
+main .content {
+  padding-top: 20px;
+}
+
+main ul{
+  padding: 20px 15px;
+}
+
+main table{
+  border-spacing: 0;
+  padding-bottom: 15px;
+}
+
+main table thead{
+  background-color: #23a9e5;
+  color: white;
+  text-align: left;
+}
+
+main table .text {
+  width: 50%;
+}
+
+main table .odd {
+  background-color: #b1e5f2;
+}
+
+/* footer */
+
+footer{
+  padding: 20px 0;
+}
+
+footer h4 {
+  color: #828282;
+}
+
+footer .image-box{
+ width: 200px;
+ height: 180px;
+ background-color: #23a9e5;
+ margin: 10px 0;
+ padding: 15px;
+ color: white;
+ background-position: center;
+ background-size: cover;
+}
+
+#image-monitor {
+  background-image: url("../img/monitor.jpg");
+}
+
+#image-graph {
+  background-image: url("../img/graph.jpg") ;
+}
